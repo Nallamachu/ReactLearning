@@ -17,13 +17,13 @@ class EvenHandlingEx extends React.Component{
     render() {
         return(
             <div>
-                #this.handleClick1() calls while loading the page
+                <Comment>this.handleClick1() calls while loading the page</Comment>
                 <button onClick={this.handleClick1()}>Click 1</button>
-                #this.handleClick1 calls while clicking on Click 2
+                <Comment>this.handleClick1 calls while clicking on Click 2</Comment>
                 <button onClick={this.handleClick1}>Click 2</button>
-                #this.handleClick1 calls while clicking on Click 3
+                <Comment>this.handleClick1 calls while clicking on Click 3</Comment>
                 <button onClick={this.handleClick2}>Click 3</button>
-                #this.handleClick1 calls while clicking on Click 3
+                <Comment>this.handleClick1 calls while clicking on Click 4</Comment>
                 <button onClick={this.handleClick3}>Click 4</button>
             </div>
         );
